@@ -1,6 +1,7 @@
 '''Faça um sistema de login, pedindo a  senha do usuário e mostrando seu nome e a mensagem,
 login efetuado com sucesso.'''
 
+#Não lembro exatamente como era para ser a atividade
 user = [0] * 2
 senha = [0] * 2
 tam = len(user)
