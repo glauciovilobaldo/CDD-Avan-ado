@@ -2,8 +2,8 @@
 login efetuado com sucesso.'''
 
 #Não lembro exatamente como era para ser a atividade
-user = [0] * 2
-senha = [0] * 2
+user = [0] * 5
+senha = [0] * 5
 tam = len(user)
 t = 0
 while t != 4:
