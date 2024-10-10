@@ -37,4 +37,10 @@ def letras(texto):
     print(cont)
     for x in range(tam-1, -1,-1):
         print(texto[x], end="")
-
+def numeros(*num):
+    newnum = []
+    for i in num:
+        if i not in newnum:
+            newnum.append(i)
+    print(f'Entrada original')
+    print(f"Nova lista: {newnum}")
