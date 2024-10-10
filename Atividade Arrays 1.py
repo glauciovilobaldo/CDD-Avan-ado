@@ -18,7 +18,7 @@ while t != 4:
             if userlog == user[k]:
                 print(f"Bem vindo {user[k]}")
                 senhalog = input("Digite a Senha: ")
-                if senhalog[k] == senha[k]:
+                if senhalog == senha[k]:
                     print("Login efetuado com sucesso!")
                     break
                 else:
@@ -30,4 +30,3 @@ while t != 4:
         print("Usuários cadastrados: ")
         for n in range (tam):
             print(user[n])
-
