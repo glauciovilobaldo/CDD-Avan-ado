@@ -1,4 +1,5 @@
 from Biblioteca import *
+from Manegamento de Arquivo import *
 
 #pirasim(int(input("Digite um número: ")))
 #vogais(input('Digite um texto: '))
